@@ -1,0 +1,224 @@
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 12px 20px;
+  background-color: rgb(49, 180, 49);
+  color: white;
+  border: none;
+  border-radius: 18px;
+}
+
+.header_btn {
+  padding: 12px 16px;
+  background-color: rgb(28, 10, 43);
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container .head {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.container .head ul {
+  display: flex;
+}
+.container .head ul a {
+  color: black;
+  padding: 0 10px;
+}
+.container .head ul a:hover {
+  color: rgb(27, 197, 27);
+}
+.container .head .header_btn {
+  margin-right: 50px;
+  position: relative;
+  bottom: 10px;
+}
+.container .head img {
+  padding: 5px;
+  margin-top: 10px;
+}
+.container .body {
+  display: flex;
+  justify-content: center;
+}
+.container .body .text {
+  align-self: center;
+}
+.container .body .text p {
+  padding: 10px 0;
+}
+.container .body .text h1 {
+  font-size: 42px;
+}
+.container .body .text span {
+  color: rgb(27, 197, 27);
+}
+.container .body img {
+  width: 550px;
+  height: 500px;
+}
+.container section {
+  text-align: center;
+}
+.container section .card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container section .hard {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container section .nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.container section .nav .text {
+  align-self: center;
+  padding: 10px;
+  text-align: left;
+}
+.container section .nav .picture {
+  display: flex;
+}
+.container section .nav .picture .img img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.container section .nav .picture .pic img {
+  width: 200px;
+  height: 400px;
+  margin-top: 50px;
+}
+.container nav .item {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.container nav .item .text {
+  align-self: center;
+}
+.container nav .item img {
+  width: 350px;
+  height: 300px;
+}
+.container nav .child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.container nav .child img {
+  width: 300px;
+  height: 300px;
+}
+.container nav .child .check {
+  display: flex;
+}
+.container nav .child .check img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.container aside {
+  text-align: center;
+  margin-top: 80px;
+}
+.container aside .meal {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container aside .meal .box {
+  margin-top: 50px;
+}
+.container aside .meal .box img {
+  width: 170px;
+  height: 170px;
+}
+.container article {
+  background-color: #FCFCFC;
+  margin-top: 40px;
+}
+.container article h1 {
+  text-align: center;
+}
+.container article .const {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.container article .const .pic {
+  display: flex;
+}
+.container article .const .pic .text {
+  align-self: center;
+  margin-left: 10px;
+}
+.container article .const .pic .text p {
+  font-size: 10px;
+}
+.container article .list {
+  text-align: center;
+}
+.container article .list .email {
+  margin-top: 30px;
+}
+.container article .list .email input {
+  padding: 8px;
+  border-radius: 16px;
+  border: 1px solid grey;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer .list {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .list h4 {
+  margin-left: 38px;
+}
+footer .list a {
+  color: black;
+  margin: 6px 0;
+}
+footer .paragph {
+  background-color: rgb(27, 197, 27);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  width: 1320px;
+  position: relative;
+  right: 100px;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

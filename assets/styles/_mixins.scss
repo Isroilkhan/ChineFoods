@@ -1,0 +1,41 @@
+@mixin container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  @include container
+}
+@mixin btnMixin{
+  padding: 12px 20px;
+  background-color: rgb(49, 180, 49);
+  color: white;
+  border: none;
+  border-radius: 18px;
+}
+.btn{
+  @include btnMixin
+}
+
+@mixin header_btnMixin{
+  padding:12px 16px;
+  background-color: rgb(28, 10, 43);
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+.header_btn{
+  @include header_btnMixin
+}
+
+@mixin p{
+      font-family: 'Sharp Sans No1';
+      color: #181D19;
+      opacity: 0.6;
+}
+
+p{
+  @include p
+}
